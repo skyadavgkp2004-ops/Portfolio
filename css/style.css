@@ -1,0 +1,646 @@
+*{
+      font-family: "Inter", sans-serif;
+
+}
+.border p{
+    margin-top:-100px;
+}
+*{
+    box-sizing: border-box;
+}
+
+html, body{   
+     overflow-x:hidden;   /*iss se mobile me right side sapce nhi chutega */
+    width: 100%;
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #082b47;
+}
+
+.container{
+   padding-top: 40px;
+}
+
+
+
+/* navbar me press karne pee exact wahipage open ho uskeliye */
+/* and @media kae fix karf do media.cc me bhi isko mobile k liye */
+#about{
+    scroll-margin-top: -200px;
+}
+#education{
+     scroll-margin-top: -200px;
+}
+#skills{
+     scroll-margin-top: -300px;
+}
+#projects{
+     scroll-margin-top: -180px;
+}
+
+#contact{
+     scroll-margin-top: -300px;
+}
+
+
+
+
+
+
+
+.navbar-toggler{
+    margin-left: 80%;
+    margin-top:-30px;
+    background-color:rgb(176, 240, 240);
+    width: 3rem;
+    height: 2rem;
+}
+.navbar{
+
+    background: linear-gradient(to right, #00171F, #003459);
+}
+.navbar-brand{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-brand:hover{
+    color: #00abf0;
+}
+
+.nav-link{
+    color:rgb(145, 142, 142);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: 0.3s;
+    display:flex;
+    align-items:center;
+}
+.nav-link:hover{
+    color: white;
+}
+.btn{ 
+    background-color: #00171F;
+  
+}
+.hirebtn:hover{
+    background-color:#112D60;
+}
+.hirebtn{
+    color: rgb(249, 245, 245)!important;
+    background: #112D60;
+
+    margin-right: 100px;   /* right ki taraf */
+    display:flex;
+     white-space: nowrap;
+}
+
+
+.profile{
+    color: white;
+    margin-top: 75px;
+    font-size: 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+    background-color:#00171F;
+}
+.card{
+    position:-webkit-sticky;
+}
+
+
+
+
+
+
+.profile h1{
+margin-top: -40px;
+    font-size: 90px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:700;
+}
+.profile h1 span{
+    font-family:Great Vibes;
+    
+}
+.profile h6{
+    color:aqua;
+}
+.profile h6{
+    font-size:30px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid cyan;
+    width: 0;
+    animation: typing 2s steps(18, end) forwards;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+        border-right: 3px solid cyan;
+    }
+    to{
+        width: 25ch;
+        border-right: none;   /* cursor gayab */
+    }
+}
+.profile p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18.5px;
+    width: 350px;
+   line-height: 1.8;
+}
+.profilepic{
+    margin-top: 40px;
+    padding-bottom: 100px;
+    background: linear-gradient(to right, #00171F, #003459);
+    border: px  solid #00abf0;
+         box-shadow: 0 0 15px #00abf0;
+border-radius: 80px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profilepic:hover{
+     transform: scale(1.05);
+}
+.profile-img{
+   
+    margin-top: 80px;
+    padding: 10px ;
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    border: 4px  solid aqua;
+     box-shadow: 0 0 15px aqua;
+     object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+#about h6{
+    color: #00abf0;
+    font-family: "Fira Code", monospace;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: block;
+    text-align: center;
+    padding-top: 20%;
+    
+   }
+#about h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+}
+#about h1 span{
+    color: #00abf0;
+}
+.aboutme{
+
+}
+
+.aboutme h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    text-align: center;
+    color: #89D4FF;
+}
+.aboutsection{
+    color: rgb(192, 217, 241);
+    
+    margin-bottom: 200px;
+    
+}
+
+.border h1{
+margin-top: -50px;
+font-weight: 700;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.border {
+    font-family:'Times New Roman', Times, serif;
+    padding: 60px;
+}
+.aboutsection p{
+    font-family: 'Times New Roman', Times, serif;
+ border: 2px  solid #00abf0;
+ border-radius: 20px;
+     box-shadow: 0 0 15px #00abf0;
+     margin: 50px;
+     padding: 20px;
+
+    }
+.aboutsection p:hover{
+     transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+#academic{
+     background: linear-gradient(to right, #00171F, #003459);
+     border: 2px solid #00abf0;
+     border-radius: 20px;
+     padding: 60px;
+     display: flex;
+     padding-bottom: 80px;
+     box-shadow: 0 0 20px #00abf0;
+
+}
+
+
+#education h6{
+    color: #00abf0;
+    font-family: "Fira Code", monospace;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: block;
+    text-align: center;
+    padding-top: 25%;
+    
+   }
+#education h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+}
+#education h1 span{
+    color: #00abf0;
+}
+.educationcard{
+    background: linear-gradient(to right, #00171F, #003459);
+    border-color: rgba(56, 189, 248, 0.5);
+       box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+
+}
+.educationcard h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+.educationcard h4{
+    color: #94a3b8;
+    font-family: 'Times New Roman', Times, serif;
+}
+.educationcard p{
+    color: #34d399;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.skillrow{
+     border: 2px solid #00abf0;
+        box-shadow: 0 0 20px #00abf0;
+}
+#skills h1{
+    margin-left: 6.8%;
+}
+#skills h6{
+    color: #00abf0;
+    font-family: "Fira Code", monospace;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: block;
+    text-align: center;
+    padding-top: 25%;
+    
+   }
+   #skills h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+}
+#skills h1 span{
+    color: #00abf0;
+}
+.skillcard {
+     background: linear-gradient(to right, #00171F, #003459);
+    display: flex;
+    align-items: center;
+    border-radius: 1.5rem;
+    border-color: #00abf0;
+    width: 100%;
+    height: 100%;
+    
+}
+.skillcard img{
+    width: 50%;
+    height: 100%;
+    padding-top:30px
+   
+}
+.skillrow{
+         background: linear-gradient(to right, #00171F, #003459);
+   width: 100%;
+   margin: auto;
+}
+.skillcard h4{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+.card:hover{
+      transform: scale(1.1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#projects h1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 42px;
+    font-weight: 800;
+    color:white;
+}
+#projects h1 span{
+    color: #00abf0;
+}
+#projects h6{
+ color: #00abf0;
+    font-family: "Fira Code", monospace;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: block;
+    text-align: center;
+    padding-top: 25%;
+}
+.projectimage img{
+    border: 2px solid aqua;
+       box-shadow: 0 0 20px aqua;
+
+   width: 200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+.projectimage img:hover{
+          transform: scale(1.1);
+
+}
+.projecttext{
+    color: #34d399;
+    padding-left: 20px;
+    font-size:120%;
+
+}
+#aboutprojects{
+     background: linear-gradient(to right, #00171F, #003459);
+   border: 2px solid #00abf0  ;
+   border-radius: 20px;
+   box-shadow: 0 0 20px #00abf0;
+    display: flex;
+    padding: 5%;
+    
+    
+}
+
+.projecttext{
+text-align: center;
+
+}
+
+.calculatorbtn{
+    margin-left: 1%;
+    display: inline-block;
+    padding: 12px 28px;
+    background: #00abf0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px solid #00abf0;
+    transition: 0.3s ease;
+    box-shadow: 0 0 15px #00abf0;
+}
+.calculatorbtn:hover{
+   background: transparent;
+    color: #00abf0;
+    box-shadow: 0 0 25px #00abf0;
+    transform: translateY(-3px);
+}
+.projecttext p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+.contact-box{
+     background: linear-gradient(to right, #00171F, #003459);
+    border:2px solid #00abf0;
+    box-shadow:#003459;
+    padding: 30px;
+    padding-bottom: 0px;
+  margin-bottom: 50px;
+    box-shadow: 0 0 20px #00abf0;
+}
+
+
+.contact h6{
+     color: #00abf0;
+    font-family: "Fira Code", monospace;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: block;
+    text-align: center;
+    padding-top: 25%;
+}
+.contact h1{
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 42px;
+    font-weight: 800;
+    color:white;
+}
+
+.contact h2{
+    font-weight: bold;
+    color: #58e735;
+    font-family:'Times New Roman', Times, serif
+}
+.contact h4{
+    color: #00abf0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+.contact-item i{
+    color:rgb(139, 136, 136);
+}
+.ans{
+    color:white;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+.ans a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+.head{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00abf0;
+    padding-left:20px;
+}
+
+.contact-form{
+    margin: 20px;
+    border: 1px solid grey;
+        box-shadow: 0 0 20px grey;
+
+    border-radius: 20px;
+    padding: 50px;
+}
+.contact-form:hover{
+          transform: scale(1.05);
+
+}
+.contact-form btn{
+ color: red;
+}
+.form-label{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-control{
+    
+    color:red;
+}
+.contact-form button{
+    margin-left:165px;
+}
+.contact-form button:hover{
+ background-color: #34d399;
+ 
+}
+
+
+
+footer{
+    margin-top: 200px;
+    background-color: #111;
+}
+
+.social-icons {
+   
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+.social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+   background-color: white;
+   border-radius: 50%
+       
+}
+.social-icons a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-nav ul li a{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    opacity: 0.7;
+   text-decoration: none;
+   color: white;
+}
+.footer-bottom{
+    background-color:#000;
+    padding: 20px;
+    color: white;
+    display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.designer{
+    opacity: 0.7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+
